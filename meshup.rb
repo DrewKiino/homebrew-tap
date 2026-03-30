@@ -7,16 +7,16 @@ class Meshup < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/DrewKiino/meshup/releases/download/prod-0.1.0/meshup-aarch64-apple-darwin-0.1.0.tar.gz"
-      sha256 "aa26f0c37a076cabc8be34759d9b9a42eed6215bdb2038f0918a20f7e7e0d633"
+      sha256 "4005224561ba4ee1aedca928cf5be6ce65866b48ff8e79921c103ce464207c09"
     else
       url "https://github.com/DrewKiino/meshup/releases/download/prod-0.1.0/meshup-x86_64-apple-darwin-0.1.0.tar.gz"
-      sha256 "337c1b53246196d330b6ceddb069382396e4d3d4144fc979ff69943c1df006b1"
+      sha256 "3a37b2b963f60b230e7c4076ced6a71d1d514400618744e2028cbcfd77c7abb9"
     end
   end
 
   on_linux do
     url "https://github.com/DrewKiino/meshup/releases/download/prod-0.1.0/meshup-x86_64-unknown-linux-gnu-0.1.0.tar.gz"
-    sha256 "4d571e618fe2eb628cd2d2f120156ee5999588bbe4b7831a8eb6c73f26d7f213"
+    sha256 "e4d534069da04aece0d70a3ee89cc343e6d6df09d96c7993dc564c2a5acbd205"
   end
 
   def install
